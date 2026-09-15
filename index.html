@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Saqib Hussain's developer portfolio." />
+  <title>Saqib Hussain | Developer Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Primary navigation">
+      <a class="brand" href="#home">Saqib<span>.</span></a>
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero container">
+      <div class="hero-copy">
+        <p class="eyebrow">B.Tech CSE · Software Product Engineering</p>
+        <h1>Building useful things with <span>code.</span></h1>
+        <p class="hero-text">I'm Saqib Hussain, a computer science student focused on software development, problem solving, and learning how products work from interface to backend.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#projects">View projects</a>
+          <a class="button secondary" href="#contact">Get in touch</a>
+        </div>
+      </div>
+      <div class="hero-card" aria-label="Developer introduction">
+        <div class="terminal-bar"><span></span><span></span><span></span></div>
+        <pre><code><span class="muted">const</span> developer = {
+  name: <span class="string">"Saqib Hussain"</span>,
+  focus: <span class="string">"Software Engineering"</span>,
+  mindset: <span class="string">"Learn → Build → Improve"</span>
+};</code></pre>
+      </div>
+    </section>
+
+    <section id="about" class="section container">
+      <div class="section-heading"><p class="eyebrow">01 · About</p><h2>Curious by default.</h2></div>
+      <div class="about-grid">
+        <p>I’m studying B.Tech CSE (Software Product Engineering) through Kalvium at JECRC University. I enjoy turning concepts into working projects and understanding the systems behind everyday digital products.</p>
+        <p>My current journey covers programming fundamentals, web development, Git/GitHub, databases, and software product thinking. This portfolio grows as the work does.</p>
+      </div>
+    </section>
+
+    <section id="skills" class="section container">
+      <div class="section-heading"><p class="eyebrow">02 · Skills</p><h2>Tools I’m learning.</h2></div>
+      <div class="skill-grid">
+        <article><h3>Programming</h3><p>Python · JavaScript · Problem Solving</p></article>
+        <article><h3>Web</h3><p>HTML · CSS · Responsive UI · DOM</p></article>
+        <article><h3>Development</h3><p>Git · GitHub · Debugging · APIs</p></article>
+        <article><h3>Foundations</h3><p>Data Structures · Databases · Computer Science</p></article>
+      </div>
+    </section>
+
+    <section id="projects" class="section container">
+      <div class="section-heading"><p class="eyebrow">03 · Projects</p><h2>Things I’ve built.</h2></div>
+      <div class="project-grid">
+        <article class="project-card">
+          <div class="project-number">01</div>
+          <h3>Voice Security</h3>
+          <p>A security-focused project exploring voice-based verification and authentication concepts.</p>
+          <a href="https://github.com/Saqib-Hussain-xo/SIH26104-voice-security" target="_blank" rel="noreferrer">View on GitHub ↗</a>
+        </article>
+        <article class="project-card">
+          <div class="project-number">02</div>
+          <h3>Frontend Academics</h3>
+          <p>A collection of frontend web-development academic work, exercises, and experiments.</p>
+          <a href="https://github.com/Saqib-Hussain-xo/Frontend-Web-Development-academics" target="_blank" rel="noreferrer">View repository ↗</a>
+        </article>
+        <article class="project-card project-placeholder">
+          <div class="project-number">03</div>
+          <h3>More in progress</h3>
+          <p>New builds will appear here as the learning journey continues. Humanity survives another semester.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+      <div class="container contact-box">
+        <div><p class="eyebrow">04 · Contact</p><h2>Let’s build something useful.</h2><p>For projects, collaboration, or a friendly technical conversation.</p></div>
+        <div class="contact-links">
+          <a href="mailto:saqibhussaingori@gmail.com">saqibhussaingori@gmail.com</a>
+          <a href="https://www.linkedin.com/in/saqib-hussain-gori/" target="_blank" rel="noreferrer">LinkedIn ↗</a>
+          <a href="https://github.com/Saqib-Hussain-xo" target="_blank" rel="noreferrer">GitHub ↗</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer container"><p>© <span id="year"></span> Saqib Hussain. Built with HTML, CSS & JavaScript.</p></footer>
+  <script src="script.js"></script>
+</body>
+</html>
